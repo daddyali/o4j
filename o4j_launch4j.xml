@@ -1,0 +1,44 @@
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>organist4j.jar</jar>
+  <outfile>F:\o4j_exec\o4j.exe</outfile>
+  <errTitle>No valid Java installation found</errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>true</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>C:\Users\MumAndDad\Desktop\o4jnote.ico</icon>
+  <singleInstance>
+    <mutexName>Organist4j</mutexName>
+    <windowTitle></windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <minVersion>1.6.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+  <splash>
+    <file>C:\Users\MumAndDad\Desktop\o4jsplash.bmp</file>
+    <waitForWindow>true</waitForWindow>
+    <timeout>60</timeout>
+    <timeoutErr>true</timeoutErr>
+  </splash>
+  <versionInfo>
+    <fileVersion>0.0.0.1</fileVersion>
+    <txtFileVersion>V0.0.0.1</txtFileVersion>
+    <fileDescription>organist4j</fileDescription>
+    <copyright>(c)2010 Alistair McCormick</copyright>
+    <productVersion>0.0.0.1</productVersion>
+    <txtProductVersion>0.0.0.1</txtProductVersion>
+    <productName>organist4j</productName>
+    <companyName></companyName>
+    <internalName>organist4j</internalName>
+    <originalFilename>o4j.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
